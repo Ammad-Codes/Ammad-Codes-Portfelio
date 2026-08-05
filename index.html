@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Ammad Khan</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/hero.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/skills.css">
+<link rel="stylesheet" href="css/projects.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Ammad<span>Khan</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <p class="greeting">Hello, I'm</p>
+      <h1>Ammad Khan</h1>
+      <h2>Web Developer</h2>
+      <p class="hero-text">
+        I build clean, modern and responsive websites using HTML, CSS and JavaScript.
+        Welcome to my portfolio — take a look at what I do.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="WhatsApp Image 2026-08-02 at 10.35.01 PM.jpeg" alt="Amad Khan" class="hero-img">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I'm a passionate developer who loves turning ideas into real, working websites.
+      I enjoy learning new technologies and building things that make an impact.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>HTML5</h3>
+        <p>I build semantic, well-structured web pages..</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS3</h3>
+        <p>I create attractive using modern styling techniques like Flexbox.</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>I build interactive and dynamic web features..</p>
+      </div>
+      <div class="skill-card">
+        <h3>Responsive Design</h3>
+        <p>Every website I build works perfectly..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Personal Portfelio Website</h3>
+        <p>Resposive portfelio site built with HTML & CSS Flexbox/Grid to Showcase my skills and work.</p>
+      </div>
+      <div class="project-card">
+        <h3>Business Landing page</h3>
+        <p>Responsive  landing page website built with HTML CSS & JAVAscrit.</p>
+      </div>
+      <div class="project-card">
+        <h3>E-commerence Website</h3>
+        <p>Responsive online store. featuring product listing, cart functionality,</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Amad Khan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
